@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
   config.vm.box            = "bento/ubuntu-15.04"
 
   config.vm.hostname       = BOXNAME
-  config.cache.auto_detect = true
+#  config.cache.auto_detect = true
 
   config.vm.network :private_network, ip: "10.10.10.10"
   config.vm.network :private_network, ip: "172.24.4.225",
